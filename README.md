@@ -1,13 +1,12 @@
 # Pokémon Marketplace Pro
 
-## Descripción general
-**Pokémon Marketplace Pro** es una aplicación web de simulación de compras de Pokémon, donde los usuarios pueden iniciar sesión, visualizar un catálogo, filtrar, agregar al carrito y comprar Pokémon. Incluye roles (admin y comprador), manejo de stock y actualizaciones en tiempo real.
+**Pokémon Marketplace Pro** es una aplicación web de simulación de compras de Pokémon, donde los usuarios pueden iniciar sesión, visualizar un catálogo, filtrar, agregar al carrito y comprar Pokémon. Incluye autenticación simulada, manejo de stock y actualizaciones en tiempo real mediante WebSockets.
 
 ---
 
 ## 🚀 Tecnologías utilizadas
 
-### Frontend:
+### 🧩 Frontend
 - **Next.js 15.3.4**
 - **React 19**
 - **Tailwind CSS**
@@ -16,18 +15,32 @@
 - **React Icons / HeroIcons**
 - **React Select / RC Slider**
 
-### Backend simulado:
+### 🛠 Backend simulado
 - **json-server** (API REST falsa)
 - **socket.io** (Sockets en tiempo real)
 - **Express** (Servidor de WebSockets)
 
-### Otras herramientas:
-- **PM2** (para procesos en segundo plano)
-- **Concurrently** (para ejecutar múltiples scripts en paralelo)
+### ⚙️ Utilidades
+- **PM2** (procesos en segundo plano)
+- **Concurrently** (scripts paralelos)
+- **ESLint + TypeScript**
 
 ---
 
-## 🧪 Scripts disponibles
+## 👥 Usuarios de prueba
+
+Puedes iniciar sesión con las siguientes credenciales:
+
+| Rol     | Usuario   | Contraseña   |
+|---------|-----------|--------------|
+| Admin   | `admin`   | `admin123`   |
+| Cliente | `cliente` | `cliente123` |
+
+Estos usuarios están definidos en `db.json`.
+
+---
+
+## 🛠️ Scripts disponibles
 
 ```json
 "scripts": {
@@ -42,59 +55,75 @@
 ```
 
 - `dev`: inicia Next.js en modo desarrollo
-- `build`: genera la build optimizada
-- `start`: arranca la app Next.js ya compilada
-- `json-server`: simula una API REST leyendo desde `db.json`
-- `socket-server`: ejecuta un servidor de WebSocket con `express` + `socket.io`
-- `dev:all`: ejecuta simultáneamente `json-server`, `socket-server` y Next.js usando `concurrently`
+- `build`: genera la build de producción
+- `start`: ejecuta la build optimizada
+- `json-server`: inicia la API REST falsa
+- `socket-server`: inicia el servidor WebSocket en el puerto `4000`
+- `dev:all`: ejecuta todo lo anterior simultáneamente
 
 ---
 
 ## 🧱 Estructura del proyecto
 
 ```
-.
-├── app/                    # Rutas de la aplicación (Next.js App Router)
-│   ├── 403/               # Página de acceso no autorizado
-│   ├── admin/             # Vista del administrador
-│   ├── auth/login/        # Página de inicio de sesión
-│   ├── cart/              # Página del carrito de compras
-│   └── layout.tsx         # Layout general de la app
-├── components/            # Componentes reutilizables
-├── context/               # Contextos globales (ej. usuario)
-├── hooks/                 # Hooks personalizados
-├── models/                # Modelos TypeScript (interfaces)
-├── public/                # Archivos estáticos
-├── services/              # Servicios para APIs y sockets
-│   ├── authService.ts
-│   ├── jsonServerService.ts
-│   ├── pokemonService.ts
-│   └── socketService.ts
-├── utils/                 # Funciones utilitarias
-├── db.json                # Base de datos simulada para `json-server`
-├── .gitignore             # Archivos ignorados por git
-├── eslint.config.mjs      # Configuración de ESLint
-└── README.md              # Este archivo
-
+pokemon-marketplace-pro/
+├── app/
+│   ├── 403/              # Página de acceso denegado
+│   ├── admin/            # Panel de administración
+│   ├── auth/login/       # Inicio de sesión
+│   ├── cart/             # Carrito de compras
+│   ├── layout.tsx        # Layout global
+│   └── page.tsx          # Página principal
+├── components/           # Componentes reutilizables
+├── context/              # Manejo de estado global (usuario)
+├── hooks/                # Hooks personalizados
+├── models/               # Interfaces TypeScript
+├── public/               # Recursos estáticos
+├── services/
+│   ├── authService.ts        # Lógica de autenticación simulada
+│   ├── jsonServerService.ts # Acceso a la API simulada
+│   ├── pokemonService.ts     # Servicios de Pokémon
+│   └── socketService.ts      # Comunicación en tiempo real
+├── utils/                # Funciones auxiliares
+├── db.json               # Base de datos JSON falsa
+├── eslint.config.mjs     # Configuración de linting
+└── README.md             # Este documento
 ```
 
 ---
 
-## 🛠️ Cómo ejecutar localmente
+## ⚙️ Cómo ejecutar localmente
 
 ```bash
-git clone https://github.com/tu-usuario/pokemarket.git
+git clone https://github.com/wdavid/pokemarket.git
 cd pokemarket
 npm install
 npm run dev:all
 ```
 
+Esto levanta:
+- Cliente: `http://localhost:3000`
+- API falsa (json-server): `http://localhost:3001`
+- WebSocket: `http://localhost:4000`
+
 ---
 
-## 🧠 Notas importantes
+## 🔒 Autenticación simulada
 
-- `loginSimulado()` consulta la API falsa (`json-server`) para verificar usuario y contraseña.
-- `socket.io` permite que se actualice el stock o carrito en tiempo real entre usuarios.
-- El archivo `db.json` contiene la data de prueba con usuarios, pokémones y más.
-- El servidor de sockets corre en el puerto **4000**.
-- La API falsa corre en el puerto **3001**.
+La función `loginSimulado()` consulta `json-server` para verificar las credenciales contra los datos en `db.json`. Si coinciden, retorna un objeto con `success` y un `token` falso.
+
+---
+
+## 🧠 Notas adicionales
+
+- `socket.io` permite que el stock se sincronice entre usuarios/admin.
+- En modo producción, puedes usar `pm2` para mantener procesos vivos:
+  
+```bash
+npm run build
+pm2 start "npm run start" --name pokemarket-prod
+pm2 start socketServer.js --name socket-server
+pm2 start "npx json-server --watch db.json --port 3001" --interpreter bash --name json-server
+pm2 save
+pm2 startup
+```

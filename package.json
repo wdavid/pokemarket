@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "json-server": "json-server --watch db.json --port 3001"
+    "json-server": "json-server --watch db.json --port 3001",
+    "socket-server": "node socketServer.js",
+    "dev:all": "concurrently \"npm run json-server\" \"npm run socket-server\" \"npm run dev\""
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
@@ -31,6 +33,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "autoprefixer": "^10.4.21",
+    "concurrently": "^9.2.0",
     "eslint": "^9",
     "eslint-config-next": "15.3.4",
     "json-server": "^1.0.0-beta.3",

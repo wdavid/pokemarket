@@ -38,6 +38,10 @@ function AdminPage() {
     if (!stockUpdates[id]) return;
     await updatePokemonStock(id, stockUpdates[id]);
     await fetchPokemons();
+
+    await fetch("http://localhost:4000/notify-update", {
+      method: "POST",
+    });
   };
 
   const handleDelete = async (id: number) => {
@@ -80,7 +84,9 @@ function AdminPage() {
         </div>
       </div>
 
-      <h1 className="text-2xl font-bold text-black dark:text-white text-center mb-6">Panel de Administración</h1>
+      <h1 className="text-2xl font-bold text-black dark:text-white text-center mb-6">
+        Panel de Administración
+      </h1>
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {sorted.map((pokemon) => (

@@ -22,6 +22,10 @@ export default function CartPage() {
         await updatePokemonStock(item.pokemon.id, Math.max(newStock, 0));
       }
 
+      await fetch("http://localhost:4000/notify-update", {
+        method: "POST",
+      });
+
       clearCart();
       setModalType("success");
       setModalMessage("¡Compra realizada con éxito!");
@@ -46,8 +50,13 @@ export default function CartPage() {
 
       {cart.items.length === 0 ? (
         <div className="text-center text-lg">
-          <p className="mb-2 text-black dark:text-white">Tu carrito está vacío.</p>
-          <Link href="/" className="text-sky-700 dark:text-sky-400 underline hover:text-sky-900">
+          <p className="mb-2 text-black dark:text-white">
+            Tu carrito está vacío.
+          </p>
+          <Link
+            href="/"
+            className="text-sky-700 dark:text-sky-400 underline hover:text-sky-900"
+          >
             Volver al catálogo
           </Link>
         </div>

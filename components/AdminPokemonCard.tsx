@@ -40,7 +40,7 @@ export default function AdminPokemonCard({
           id={`stock-${pokemon.id}`}
           type="number"
           defaultValue={pokemon.stock}
-          className="w-16 px-2 py-1 text-sm border border-gray-300 rounded"
+          className="w-16 px-2 py-1 text-sm border text-black dark:text-white bg-white dark:bg-gray-800 border-gray-300 rounded"
           onChange={(e) => onStockChange(pokemon.id, Number(e.target.value))}
         />
       </div>

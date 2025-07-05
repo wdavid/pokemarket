@@ -23,7 +23,7 @@
         "poison"
       ],
       "price": 469,
-      "stock": 18
+      "stock": 21
     },
     {
       "id": "2",
@@ -34,7 +34,7 @@
         "poison"
       ],
       "price": 516,
-      "stock": 12
+      "stock": 11
     },
     {
       "id": "3",
@@ -55,7 +55,7 @@
         "fire"
       ],
       "price": 162,
-      "stock": 6
+      "stock": 11
     },
     {
       "id": "5",
@@ -96,7 +96,7 @@
         "water"
       ],
       "price": 313,
-      "stock": 17
+      "stock": 18
     },
     {
       "id": "9",
@@ -116,7 +116,7 @@
         "bug"
       ],
       "price": 388,
-      "stock": 7
+      "stock": 9
     },
     {
       "id": "11",

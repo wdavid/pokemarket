@@ -3,13 +3,17 @@ import "./globals.css";
 import Navbar from "../components/Navbar";
 import { metadata } from "./metadata";
 import { CartProvider } from "../context/CartContext";
+import { AuthProvider } from "../context/AuthContext";
 import React from "react";
+import { usePathname } from "next/navigation";
 
 interface RootLayoutProps {
   children: React.ReactNode;
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
+  const pathname = usePathname();
+  const hideNavbar = pathname.startsWith("/auth");
 
   return (
     <html lang="es">
@@ -22,10 +26,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <meta name="robots" content={metadata.robots} />
         <link rel="icon" href={metadata.icons.icon} type="image/x-icon" />
         <meta property="og:title" content={metadata.openGraph.title} />
-        <meta
-          property="og:description"
-          content={metadata.openGraph.description}
-        />
+        <meta property="og:description" content={metadata.openGraph.description} />
         <meta property="og:url" content={metadata.openGraph.url} />
         <meta property="og:site_name" content={metadata.openGraph.siteName} />
         <meta property="og:type" content={metadata.openGraph.type} />
@@ -33,10 +34,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <meta name="theme-color" content={metadata.themeColor} />
       </head>
       <body className="bg-background-primary dark:bg-black font-Nunito-sans">
-        <CartProvider>
-          <Navbar />
-          {children}
-        </CartProvider>
+        <AuthProvider>
+          <CartProvider>
+            {!hideNavbar && <Navbar />}
+            {children}
+          </CartProvider>
+        </AuthProvider>
       </body>
     </html>
   );

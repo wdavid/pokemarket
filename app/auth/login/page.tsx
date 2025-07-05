@@ -1,5 +1,5 @@
 "use client";
-
+import { loginSimulado } from "@/services/authService";
 import { useState, ChangeEvent, FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import { EyeIcon, EyeSlashIcon } from "@heroicons/react/24/outline";
@@ -13,7 +13,10 @@ interface LoginFormData {
 }
 
 export default function LoginPage() {
-  const [formData, setFormData] = useState<LoginFormData>({ identifier: "", password: "" });
+  const [formData, setFormData] = useState<LoginFormData>({
+    identifier: "",
+    password: "",
+  });
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -29,11 +32,22 @@ export default function LoginPage() {
     setLoading(true);
 
     try {
-      const response = await api.post("/auth/login", formData);
-      localStorage.setItem("token", response.data.token);
-      router.push("/");
-    } catch (err: any) {
-      setError(err.response?.data?.error || "Error en las credenciales.");
+      const result = await loginSimulado(
+        formData.identifier,
+        formData.password
+      );
+
+      if (result.success) {
+        localStorage.setItem("user", JSON.stringify(result.user));
+
+        document.cookie = `token=${result.token}; path=/; max-age=86400;`;
+
+        router.push("/");
+      } else {
+        setError(result.message ?? "Ocurrió un error.");
+      }
+    } catch (err) {
+      setError("Error inesperado.");
     } finally {
       setLoading(false);
     }
@@ -45,7 +59,9 @@ export default function LoginPage() {
         onSubmit={handleSubmit}
         className="bg-white shadow-lg rounded-lg p-6 w-full max-w-sm"
       >
-        <h2 className="text-2xl text-black font-bold text-center mb-4">Iniciar Sesión</h2>
+        <h2 className="text-2xl text-black font-bold text-center mb-4">
+          Iniciar Sesión
+        </h2>
 
         {error && <p className="text-red-500 mb-4">{error}</p>}
 

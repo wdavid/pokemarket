@@ -1,7 +1,21 @@
 {
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "cliente",
+      "password": "cliente123",
+      "role": "comprador"
+    }
+  ],
   "pokemons": [
     {
-      "id": 1,
+      "id": "1",
       "name": "bulbasaur",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
       "types": [
@@ -12,7 +26,7 @@
       "stock": 18
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "ivysaur",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
       "types": [
@@ -20,10 +34,10 @@
         "poison"
       ],
       "price": 516,
-      "stock": 8
+      "stock": 12
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "venusaur",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
       "types": [
@@ -31,20 +45,20 @@
         "poison"
       ],
       "price": 458,
-      "stock": 11
+      "stock": 9
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "charmander",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
       "types": [
         "fire"
       ],
       "price": 162,
-      "stock": 10
+      "stock": 6
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "charmeleon",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
       "types": [
@@ -54,7 +68,7 @@
       "stock": 2
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "charizard",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
       "types": [
@@ -65,7 +79,7 @@
       "stock": 16
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "squirtle",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
       "types": [
@@ -75,7 +89,7 @@
       "stock": 17
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "wartortle",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
       "types": [
@@ -85,7 +99,7 @@
       "stock": 17
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "blastoise",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
       "types": [
@@ -95,7 +109,7 @@
       "stock": 18
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "caterpie",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
       "types": [
@@ -105,7 +119,7 @@
       "stock": 7
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "metapod",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
       "types": [
@@ -115,7 +129,7 @@
       "stock": 15
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "butterfree",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
       "types": [
@@ -126,7 +140,7 @@
       "stock": 14
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "weedle",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
       "types": [
@@ -137,7 +151,7 @@
       "stock": 2
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "kakuna",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
       "types": [
@@ -148,7 +162,7 @@
       "stock": 7
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "beedrill",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
       "types": [
@@ -159,7 +173,7 @@
       "stock": 5
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "pidgey",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
       "types": [
@@ -170,7 +184,7 @@
       "stock": 13
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "pidgeotto",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
       "types": [
@@ -181,7 +195,7 @@
       "stock": 7
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "pidgeot",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
       "types": [
@@ -192,7 +206,7 @@
       "stock": 11
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "rattata",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
       "types": [
@@ -202,7 +216,7 @@
       "stock": 1
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "raticate",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
       "types": [
@@ -212,7 +226,7 @@
       "stock": 12
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "spearow",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
       "types": [
@@ -223,7 +237,7 @@
       "stock": 2
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "fearow",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
       "types": [
@@ -234,7 +248,7 @@
       "stock": 9
     },
     {
-      "id": 23,
+      "id": "23",
       "name": "ekans",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
       "types": [
@@ -244,7 +258,7 @@
       "stock": 6
     },
     {
-      "id": 24,
+      "id": "24",
       "name": "arbok",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
       "types": [
@@ -254,7 +268,7 @@
       "stock": 10
     },
     {
-      "id": 25,
+      "id": "25",
       "name": "pikachu",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
       "types": [
@@ -264,7 +278,7 @@
       "stock": 6
     },
     {
-      "id": 26,
+      "id": "26",
       "name": "raichu",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
       "types": [
@@ -274,7 +288,7 @@
       "stock": 16
     },
     {
-      "id": 27,
+      "id": "27",
       "name": "sandshrew",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
       "types": [
@@ -284,7 +298,7 @@
       "stock": 18
     },
     {
-      "id": 28,
+      "id": "28",
       "name": "sandslash",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
       "types": [
@@ -294,7 +308,7 @@
       "stock": 11
     },
     {
-      "id": 29,
+      "id": "29",
       "name": "nidoran-f",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
       "types": [
@@ -304,7 +318,7 @@
       "stock": 14
     },
     {
-      "id": 30,
+      "id": "30",
       "name": "nidorina",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
       "types": [
@@ -314,7 +328,7 @@
       "stock": 19
     },
     {
-      "id": 31,
+      "id": "31",
       "name": "nidoqueen",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
       "types": [
@@ -325,7 +339,7 @@
       "stock": 4
     },
     {
-      "id": 32,
+      "id": "32",
       "name": "nidoran-m",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
       "types": [
@@ -335,7 +349,7 @@
       "stock": 9
     },
     {
-      "id": 33,
+      "id": "33",
       "name": "nidorino",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
       "types": [
@@ -345,7 +359,7 @@
       "stock": 12
     },
     {
-      "id": 34,
+      "id": "34",
       "name": "nidoking",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
       "types": [
@@ -356,7 +370,7 @@
       "stock": 8
     },
     {
-      "id": 35,
+      "id": "35",
       "name": "clefairy",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
       "types": [
@@ -366,7 +380,7 @@
       "stock": 4
     },
     {
-      "id": 36,
+      "id": "36",
       "name": "clefable",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
       "types": [
@@ -376,7 +390,7 @@
       "stock": 13
     },
     {
-      "id": 37,
+      "id": "37",
       "name": "vulpix",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
       "types": [
@@ -386,7 +400,7 @@
       "stock": 4
     },
     {
-      "id": 38,
+      "id": "38",
       "name": "ninetales",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
       "types": [
@@ -396,7 +410,7 @@
       "stock": 18
     },
     {
-      "id": 39,
+      "id": "39",
       "name": "jigglypuff",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
       "types": [
@@ -407,7 +421,7 @@
       "stock": 2
     },
     {
-      "id": 40,
+      "id": "40",
       "name": "wigglytuff",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
       "types": [
@@ -418,7 +432,7 @@
       "stock": 10
     },
     {
-      "id": 41,
+      "id": "41",
       "name": "zubat",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
       "types": [
@@ -429,7 +443,7 @@
       "stock": 11
     },
     {
-      "id": 42,
+      "id": "42",
       "name": "golbat",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
       "types": [
@@ -440,7 +454,7 @@
       "stock": 6
     },
     {
-      "id": 43,
+      "id": "43",
       "name": "oddish",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
       "types": [
@@ -451,7 +465,7 @@
       "stock": 16
     },
     {
-      "id": 44,
+      "id": "44",
       "name": "gloom",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
       "types": [
@@ -462,7 +476,7 @@
       "stock": 13
     },
     {
-      "id": 45,
+      "id": "45",
       "name": "vileplume",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
       "types": [
@@ -473,7 +487,7 @@
       "stock": 3
     },
     {
-      "id": 46,
+      "id": "46",
       "name": "paras",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
       "types": [
@@ -484,7 +498,7 @@
       "stock": 13
     },
     {
-      "id": 47,
+      "id": "47",
       "name": "parasect",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
       "types": [
@@ -495,7 +509,7 @@
       "stock": 17
     },
     {
-      "id": 48,
+      "id": "48",
       "name": "venonat",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
       "types": [
@@ -506,7 +520,7 @@
       "stock": 20
     },
     {
-      "id": 49,
+      "id": "49",
       "name": "venomoth",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
       "types": [
@@ -517,7 +531,7 @@
       "stock": 15
     },
     {
-      "id": 50,
+      "id": "50",
       "name": "diglett",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
       "types": [
@@ -527,7 +541,7 @@
       "stock": 2
     },
     {
-      "id": 51,
+      "id": "51",
       "name": "dugtrio",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
       "types": [
@@ -537,7 +551,7 @@
       "stock": 14
     },
     {
-      "id": 52,
+      "id": "52",
       "name": "meowth",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
       "types": [
@@ -547,7 +561,7 @@
       "stock": 5
     },
     {
-      "id": 53,
+      "id": "53",
       "name": "persian",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
       "types": [
@@ -557,7 +571,7 @@
       "stock": 18
     },
     {
-      "id": 54,
+      "id": "54",
       "name": "psyduck",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
       "types": [
@@ -567,7 +581,7 @@
       "stock": 7
     },
     {
-      "id": 55,
+      "id": "55",
       "name": "golduck",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
       "types": [
@@ -577,7 +591,7 @@
       "stock": 14
     },
     {
-      "id": 56,
+      "id": "56",
       "name": "mankey",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
       "types": [
@@ -587,7 +601,7 @@
       "stock": 12
     },
     {
-      "id": 57,
+      "id": "57",
       "name": "primeape",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
       "types": [
@@ -597,7 +611,7 @@
       "stock": 9
     },
     {
-      "id": 58,
+      "id": "58",
       "name": "growlithe",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
       "types": [
@@ -607,7 +621,7 @@
       "stock": 12
     },
     {
-      "id": 59,
+      "id": "59",
       "name": "arcanine",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
       "types": [
@@ -617,7 +631,7 @@
       "stock": 14
     },
     {
-      "id": 60,
+      "id": "60",
       "name": "poliwag",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
       "types": [
@@ -627,7 +641,7 @@
       "stock": 14
     },
     {
-      "id": 61,
+      "id": "61",
       "name": "poliwhirl",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
       "types": [
@@ -637,7 +651,7 @@
       "stock": 12
     },
     {
-      "id": 62,
+      "id": "62",
       "name": "poliwrath",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
       "types": [
@@ -648,7 +662,7 @@
       "stock": 7
     },
     {
-      "id": 63,
+      "id": "63",
       "name": "abra",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
       "types": [
@@ -658,7 +672,7 @@
       "stock": 18
     },
     {
-      "id": 64,
+      "id": "64",
       "name": "kadabra",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
       "types": [
@@ -668,7 +682,7 @@
       "stock": 6
     },
     {
-      "id": 65,
+      "id": "65",
       "name": "alakazam",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
       "types": [
@@ -678,7 +692,7 @@
       "stock": 8
     },
     {
-      "id": 66,
+      "id": "66",
       "name": "machop",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
       "types": [
@@ -688,7 +702,7 @@
       "stock": 2
     },
     {
-      "id": 67,
+      "id": "67",
       "name": "machoke",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
       "types": [
@@ -698,7 +712,7 @@
       "stock": 15
     },
     {
-      "id": 68,
+      "id": "68",
       "name": "machamp",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
       "types": [
@@ -708,7 +722,7 @@
       "stock": 9
     },
     {
-      "id": 69,
+      "id": "69",
       "name": "bellsprout",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
       "types": [
@@ -719,7 +733,7 @@
       "stock": 16
     },
     {
-      "id": 70,
+      "id": "70",
       "name": "weepinbell",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
       "types": [
@@ -727,10 +741,10 @@
         "poison"
       ],
       "price": 503,
-      "stock": 2
+      "stock": 0
     },
     {
-      "id": 71,
+      "id": "71",
       "name": "victreebel",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
       "types": [
@@ -741,7 +755,7 @@
       "stock": 4
     },
     {
-      "id": 72,
+      "id": "72",
       "name": "tentacool",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
       "types": [
@@ -752,7 +766,7 @@
       "stock": 7
     },
     {
-      "id": 73,
+      "id": "73",
       "name": "tentacruel",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
       "types": [
@@ -763,7 +777,7 @@
       "stock": 16
     },
     {
-      "id": 74,
+      "id": "74",
       "name": "geodude",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
       "types": [
@@ -774,7 +788,7 @@
       "stock": 4
     },
     {
-      "id": 75,
+      "id": "75",
       "name": "graveler",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
       "types": [
@@ -785,7 +799,7 @@
       "stock": 17
     },
     {
-      "id": 76,
+      "id": "76",
       "name": "golem",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
       "types": [
@@ -796,7 +810,7 @@
       "stock": 6
     },
     {
-      "id": 77,
+      "id": "77",
       "name": "ponyta",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
       "types": [
@@ -806,7 +820,7 @@
       "stock": 7
     },
     {
-      "id": 78,
+      "id": "78",
       "name": "rapidash",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
       "types": [
@@ -816,7 +830,7 @@
       "stock": 8
     },
     {
-      "id": 79,
+      "id": "79",
       "name": "slowpoke",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
       "types": [
@@ -827,7 +841,7 @@
       "stock": 20
     },
     {
-      "id": 80,
+      "id": "80",
       "name": "slowbro",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
       "types": [
@@ -838,7 +852,7 @@
       "stock": 14
     },
     {
-      "id": 81,
+      "id": "81",
       "name": "magnemite",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
       "types": [
@@ -849,7 +863,7 @@
       "stock": 17
     },
     {
-      "id": 82,
+      "id": "82",
       "name": "magneton",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
       "types": [
@@ -860,7 +874,7 @@
       "stock": 20
     },
     {
-      "id": 83,
+      "id": "83",
       "name": "farfetchd",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
       "types": [
@@ -871,7 +885,7 @@
       "stock": 7
     },
     {
-      "id": 84,
+      "id": "84",
       "name": "doduo",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
       "types": [
@@ -882,7 +896,7 @@
       "stock": 8
     },
     {
-      "id": 85,
+      "id": "85",
       "name": "dodrio",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
       "types": [
@@ -893,7 +907,7 @@
       "stock": 7
     },
     {
-      "id": 86,
+      "id": "86",
       "name": "seel",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
       "types": [
@@ -903,7 +917,7 @@
       "stock": 17
     },
     {
-      "id": 87,
+      "id": "87",
       "name": "dewgong",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
       "types": [
@@ -914,7 +928,7 @@
       "stock": 1
     },
     {
-      "id": 88,
+      "id": "88",
       "name": "grimer",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
       "types": [
@@ -924,7 +938,7 @@
       "stock": 18
     },
     {
-      "id": 89,
+      "id": "89",
       "name": "muk",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
       "types": [
@@ -934,7 +948,7 @@
       "stock": 10
     },
     {
-      "id": 90,
+      "id": "90",
       "name": "shellder",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
       "types": [
@@ -944,7 +958,7 @@
       "stock": 18
     },
     {
-      "id": 91,
+      "id": "91",
       "name": "cloyster",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
       "types": [
@@ -955,7 +969,7 @@
       "stock": 16
     },
     {
-      "id": 92,
+      "id": "92",
       "name": "gastly",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
       "types": [
@@ -966,7 +980,7 @@
       "stock": 2
     },
     {
-      "id": 93,
+      "id": "93",
       "name": "haunter",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
       "types": [
@@ -977,7 +991,7 @@
       "stock": 13
     },
     {
-      "id": 94,
+      "id": "94",
       "name": "gengar",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
       "types": [
@@ -988,7 +1002,7 @@
       "stock": 8
     },
     {
-      "id": 95,
+      "id": "95",
       "name": "onix",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
       "types": [
@@ -999,7 +1013,7 @@
       "stock": 8
     },
     {
-      "id": 96,
+      "id": "96",
       "name": "drowzee",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
       "types": [
@@ -1009,7 +1023,7 @@
       "stock": 8
     },
     {
-      "id": 97,
+      "id": "97",
       "name": "hypno",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
       "types": [
@@ -1019,7 +1033,7 @@
       "stock": 9
     },
     {
-      "id": 98,
+      "id": "98",
       "name": "krabby",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
       "types": [
@@ -1029,7 +1043,7 @@
       "stock": 16
     },
     {
-      "id": 99,
+      "id": "99",
       "name": "kingler",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
       "types": [
@@ -1039,7 +1053,7 @@
       "stock": 6
     },
     {
-      "id": 100,
+      "id": "100",
       "name": "voltorb",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
       "types": [
@@ -1049,7 +1063,7 @@
       "stock": 12
     },
     {
-      "id": 101,
+      "id": "101",
       "name": "electrode",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
       "types": [
@@ -1059,7 +1073,7 @@
       "stock": 9
     },
     {
-      "id": 102,
+      "id": "102",
       "name": "exeggcute",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
       "types": [
@@ -1070,7 +1084,7 @@
       "stock": 10
     },
     {
-      "id": 103,
+      "id": "103",
       "name": "exeggutor",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
       "types": [
@@ -1081,7 +1095,7 @@
       "stock": 3
     },
     {
-      "id": 104,
+      "id": "104",
       "name": "cubone",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
       "types": [
@@ -1091,7 +1105,7 @@
       "stock": 7
     },
     {
-      "id": 105,
+      "id": "105",
       "name": "marowak",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
       "types": [
@@ -1101,7 +1115,7 @@
       "stock": 2
     },
     {
-      "id": 106,
+      "id": "106",
       "name": "hitmonlee",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
       "types": [
@@ -1111,7 +1125,7 @@
       "stock": 16
     },
     {
-      "id": 107,
+      "id": "107",
       "name": "hitmonchan",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
       "types": [
@@ -1121,7 +1135,7 @@
       "stock": 10
     },
     {
-      "id": 108,
+      "id": "108",
       "name": "lickitung",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
       "types": [
@@ -1131,7 +1145,7 @@
       "stock": 14
     },
     {
-      "id": 109,
+      "id": "109",
       "name": "koffing",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
       "types": [
@@ -1141,7 +1155,7 @@
       "stock": 1
     },
     {
-      "id": 110,
+      "id": "110",
       "name": "weezing",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
       "types": [
@@ -1151,7 +1165,7 @@
       "stock": 20
     },
     {
-      "id": 111,
+      "id": "111",
       "name": "rhyhorn",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
       "types": [
@@ -1162,7 +1176,7 @@
       "stock": 8
     },
     {
-      "id": 112,
+      "id": "112",
       "name": "rhydon",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
       "types": [
@@ -1173,7 +1187,7 @@
       "stock": 11
     },
     {
-      "id": 113,
+      "id": "113",
       "name": "chansey",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
       "types": [
@@ -1183,7 +1197,7 @@
       "stock": 16
     },
     {
-      "id": 114,
+      "id": "114",
       "name": "tangela",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
       "types": [
@@ -1193,7 +1207,7 @@
       "stock": 5
     },
     {
-      "id": 115,
+      "id": "115",
       "name": "kangaskhan",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
       "types": [
@@ -1203,7 +1217,7 @@
       "stock": 12
     },
     {
-      "id": 116,
+      "id": "116",
       "name": "horsea",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
       "types": [
@@ -1213,7 +1227,7 @@
       "stock": 6
     },
     {
-      "id": 117,
+      "id": "117",
       "name": "seadra",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
       "types": [
@@ -1223,7 +1237,7 @@
       "stock": 7
     },
     {
-      "id": 118,
+      "id": "118",
       "name": "goldeen",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
       "types": [
@@ -1233,7 +1247,7 @@
       "stock": 12
     },
     {
-      "id": 119,
+      "id": "119",
       "name": "seaking",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
       "types": [
@@ -1243,7 +1257,7 @@
       "stock": 17
     },
     {
-      "id": 120,
+      "id": "120",
       "name": "staryu",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
       "types": [
@@ -1253,7 +1267,7 @@
       "stock": 12
     },
     {
-      "id": 121,
+      "id": "121",
       "name": "starmie",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
       "types": [
@@ -1264,7 +1278,7 @@
       "stock": 2
     },
     {
-      "id": 122,
+      "id": "122",
       "name": "mr-mime",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
       "types": [
@@ -1275,7 +1289,7 @@
       "stock": 9
     },
     {
-      "id": 123,
+      "id": "123",
       "name": "scyther",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
       "types": [
@@ -1286,7 +1300,7 @@
       "stock": 20
     },
     {
-      "id": 124,
+      "id": "124",
       "name": "jynx",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
       "types": [
@@ -1297,7 +1311,7 @@
       "stock": 4
     },
     {
-      "id": 125,
+      "id": "125",
       "name": "electabuzz",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
       "types": [
@@ -1307,7 +1321,7 @@
       "stock": 13
     },
     {
-      "id": 126,
+      "id": "126",
       "name": "magmar",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
       "types": [
@@ -1317,7 +1331,7 @@
       "stock": 17
     },
     {
-      "id": 127,
+      "id": "127",
       "name": "pinsir",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
       "types": [
@@ -1327,7 +1341,7 @@
       "stock": 15
     },
     {
-      "id": 128,
+      "id": "128",
       "name": "tauros",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
       "types": [
@@ -1337,7 +1351,7 @@
       "stock": 14
     },
     {
-      "id": 129,
+      "id": "129",
       "name": "magikarp",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
       "types": [
@@ -1347,7 +1361,7 @@
       "stock": 14
     },
     {
-      "id": 130,
+      "id": "130",
       "name": "gyarados",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
       "types": [
@@ -1358,7 +1372,7 @@
       "stock": 19
     },
     {
-      "id": 131,
+      "id": "131",
       "name": "lapras",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
       "types": [
@@ -1369,7 +1383,7 @@
       "stock": 1
     },
     {
-      "id": 132,
+      "id": "132",
       "name": "ditto",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
       "types": [
@@ -1379,7 +1393,7 @@
       "stock": 16
     },
     {
-      "id": 133,
+      "id": "133",
       "name": "eevee",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
       "types": [
@@ -1389,7 +1403,7 @@
       "stock": 7
     },
     {
-      "id": 134,
+      "id": "134",
       "name": "vaporeon",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
       "types": [
@@ -1399,7 +1413,7 @@
       "stock": 13
     },
     {
-      "id": 135,
+      "id": "135",
       "name": "jolteon",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
       "types": [
@@ -1409,7 +1423,7 @@
       "stock": 18
     },
     {
-      "id": 136,
+      "id": "136",
       "name": "flareon",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
       "types": [
@@ -1419,7 +1433,7 @@
       "stock": 8
     },
     {
-      "id": 137,
+      "id": "137",
       "name": "porygon",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
       "types": [
@@ -1429,7 +1443,7 @@
       "stock": 5
     },
     {
-      "id": 138,
+      "id": "138",
       "name": "omanyte",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
       "types": [
@@ -1440,7 +1454,7 @@
       "stock": 19
     },
     {
-      "id": 139,
+      "id": "139",
       "name": "omastar",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
       "types": [
@@ -1451,7 +1465,7 @@
       "stock": 6
     },
     {
-      "id": 140,
+      "id": "140",
       "name": "kabuto",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
       "types": [
@@ -1462,7 +1476,7 @@
       "stock": 7
     },
     {
-      "id": 141,
+      "id": "141",
       "name": "kabutops",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
       "types": [
@@ -1473,7 +1487,7 @@
       "stock": 15
     },
     {
-      "id": 142,
+      "id": "142",
       "name": "aerodactyl",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
       "types": [
@@ -1484,7 +1498,7 @@
       "stock": 12
     },
     {
-      "id": 143,
+      "id": "143",
       "name": "snorlax",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
       "types": [
@@ -1494,7 +1508,7 @@
       "stock": 19
     },
     {
-      "id": 144,
+      "id": "144",
       "name": "articuno",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
       "types": [
@@ -1505,7 +1519,7 @@
       "stock": 20
     },
     {
-      "id": 145,
+      "id": "145",
       "name": "zapdos",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
       "types": [
@@ -1516,7 +1530,7 @@
       "stock": 2
     },
     {
-      "id": 146,
+      "id": "146",
       "name": "moltres",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
       "types": [
@@ -1527,7 +1541,7 @@
       "stock": 8
     },
     {
-      "id": 147,
+      "id": "147",
       "name": "dratini",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
       "types": [
@@ -1537,7 +1551,7 @@
       "stock": 2
     },
     {
-      "id": 148,
+      "id": "148",
       "name": "dragonair",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
       "types": [
@@ -1547,7 +1561,7 @@
       "stock": 20
     },
     {
-      "id": 149,
+      "id": "149",
       "name": "dragonite",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
       "types": [
@@ -1558,7 +1572,7 @@
       "stock": 8
     },
     {
-      "id": 150,
+      "id": "150",
       "name": "mewtwo",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
       "types": [
@@ -1568,7 +1582,7 @@
       "stock": 20
     },
     {
-      "id": 151,
+      "id": "151",
       "name": "mew",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
       "types": [

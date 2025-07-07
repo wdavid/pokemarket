@@ -17,39 +17,45 @@ export default function Page() {
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
-    async function loadPokemons() {
-      setIsLoading(true); 
-      const dbPokemons = await getPokemonsFromDB();
+  async function loadPokemons() {
+    setIsLoading(true); 
+    const dbPokemons = await getPokemonsFromDB();
 
-      if (dbPokemons.length === 0) {
-        console.log("Base de datos vacía, obteniendo desde PokéAPI...");
-        const pokeList = await fetchPokemonList(151);
-        for (const poke of pokeList) {
+    if (dbPokemons.length === 0) {
+      console.log("Base de datos vacía, obteniendo desde PokéAPI...");
+      const existingIds = new Set(dbPokemons.map(p => p.id));
+      const pokeList = await fetchPokemonList(151);
+      
+      for (const poke of pokeList) {
+        if (!existingIds.has(poke.id)) {
           poke.price = Math.floor(Math.random() * 500) + 50;
           poke.stock = Math.floor(Math.random() * 20) + 1;
           await addPokemonToDB(poke);
         }
-        const reloaded = await getPokemonsFromDB();
-        setPokemons(reloaded);
-      } else {
-        setPokemons(dbPokemons);
       }
 
-      setIsLoading(false);
+      const reloaded = await getPokemonsFromDB();
+      setPokemons(reloaded);
+    } else {
+      setPokemons(dbPokemons);
     }
 
+    setIsLoading(false);
+  }
+
+  loadPokemons();
+
+  const socket = io("http://localhost:4000");
+  socket.on("stockUpdated", () => {
+    console.log("Stock actualizado desde socket!");
     loadPokemons();
+  });
 
-    const socket = io("http://localhost:4000");
-    socket.on("stockUpdated", () => {
-      console.log("Stock actualizado desde socket!");
-      loadPokemons();
-    });
+  return () => {
+    socket.disconnect();
+  };
+}, []);
 
-    return () => {
-      socket.disconnect();
-    };
-  }, []);
 
   const allTypes = Array.from(new Set(pokemons.flatMap((p) => p.types)));
 

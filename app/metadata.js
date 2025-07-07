@@ -13,7 +13,7 @@ export const metadata = {
       title: '',
       description: '',
       url: 'https://pokemon-marketplace-pro.vercel.app',
-      siteName: 'IES Siglo XXI',
+      siteName: 'Pokemon Marketplace Pro',
       images: [
         {
           url: '',

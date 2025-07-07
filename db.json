@@ -22,8 +22,8 @@
         "grass",
         "poison"
       ],
-      "price": 469,
-      "stock": 21
+      "price": 472,
+      "stock": 8
     },
     {
       "id": "2",
@@ -33,8 +33,8 @@
         "grass",
         "poison"
       ],
-      "price": 516,
-      "stock": 11
+      "price": 297,
+      "stock": 14
     },
     {
       "id": "3",
@@ -44,8 +44,8 @@
         "grass",
         "poison"
       ],
-      "price": 458,
-      "stock": 9
+      "price": 218,
+      "stock": 8
     },
     {
       "id": "4",
@@ -54,8 +54,8 @@
       "types": [
         "fire"
       ],
-      "price": 162,
-      "stock": 11
+      "price": 285,
+      "stock": 6
     },
     {
       "id": "5",
@@ -64,8 +64,8 @@
       "types": [
         "fire"
       ],
-      "price": 322,
-      "stock": 2
+      "price": 422,
+      "stock": 16
     },
     {
       "id": "6",
@@ -75,8 +75,8 @@
         "fire",
         "flying"
       ],
-      "price": 420,
-      "stock": 16
+      "price": 189,
+      "stock": 13
     },
     {
       "id": "7",
@@ -85,8 +85,8 @@
       "types": [
         "water"
       ],
-      "price": 87,
-      "stock": 17
+      "price": 60,
+      "stock": 8
     },
     {
       "id": "8",
@@ -95,8 +95,8 @@
       "types": [
         "water"
       ],
-      "price": 313,
-      "stock": 18
+      "price": 203,
+      "stock": 8
     },
     {
       "id": "9",
@@ -105,8 +105,8 @@
       "types": [
         "water"
       ],
-      "price": 350,
-      "stock": 18
+      "price": 467,
+      "stock": 16
     },
     {
       "id": "10",
@@ -115,8 +115,8 @@
       "types": [
         "bug"
       ],
-      "price": 388,
-      "stock": 9
+      "price": 459,
+      "stock": 0
     },
     {
       "id": "11",
@@ -126,7 +126,7 @@
         "bug"
       ],
       "price": 350,
-      "stock": 15
+      "stock": 8
     },
     {
       "id": "12",
@@ -136,8 +136,8 @@
         "bug",
         "flying"
       ],
-      "price": 242,
-      "stock": 14
+      "price": 70,
+      "stock": 6
     },
     {
       "id": "13",
@@ -147,8 +147,8 @@
         "bug",
         "poison"
       ],
-      "price": 52,
-      "stock": 2
+      "price": 509,
+      "stock": 3
     },
     {
       "id": "14",
@@ -158,8 +158,8 @@
         "bug",
         "poison"
       ],
-      "price": 260,
-      "stock": 7
+      "price": 459,
+      "stock": 17
     },
     {
       "id": "15",
@@ -169,8 +169,8 @@
         "bug",
         "poison"
       ],
-      "price": 462,
-      "stock": 5
+      "price": 111,
+      "stock": 2
     },
     {
       "id": "16",
@@ -180,8 +180,8 @@
         "normal",
         "flying"
       ],
-      "price": 477,
-      "stock": 13
+      "price": 220,
+      "stock": 12
     },
     {
       "id": "17",
@@ -191,8 +191,8 @@
         "normal",
         "flying"
       ],
-      "price": 126,
-      "stock": 7
+      "price": 347,
+      "stock": 18
     },
     {
       "id": "18",
@@ -202,8 +202,8 @@
         "normal",
         "flying"
       ],
-      "price": 458,
-      "stock": 11
+      "price": 204,
+      "stock": 13
     },
     {
       "id": "19",
@@ -212,8 +212,8 @@
       "types": [
         "normal"
       ],
-      "price": 184,
-      "stock": 1
+      "price": 116,
+      "stock": 11
     },
     {
       "id": "20",
@@ -222,8 +222,8 @@
       "types": [
         "normal"
       ],
-      "price": 304,
-      "stock": 12
+      "price": 260,
+      "stock": 16
     },
     {
       "id": "21",
@@ -233,8 +233,8 @@
         "normal",
         "flying"
       ],
-      "price": 469,
-      "stock": 2
+      "price": 164,
+      "stock": 17
     },
     {
       "id": "22",
@@ -244,8 +244,8 @@
         "normal",
         "flying"
       ],
-      "price": 397,
-      "stock": 9
+      "price": 330,
+      "stock": 12
     },
     {
       "id": "23",
@@ -254,8 +254,8 @@
       "types": [
         "poison"
       ],
-      "price": 480,
-      "stock": 6
+      "price": 535,
+      "stock": 1
     },
     {
       "id": "24",
@@ -264,8 +264,8 @@
       "types": [
         "poison"
       ],
-      "price": 525,
-      "stock": 10
+      "price": 99,
+      "stock": 16
     },
     {
       "id": "25",
@@ -274,8 +274,8 @@
       "types": [
         "electric"
       ],
-      "price": 439,
-      "stock": 6
+      "price": 400,
+      "stock": 1
     },
     {
       "id": "26",
@@ -284,8 +284,8 @@
       "types": [
         "electric"
       ],
-      "price": 162,
-      "stock": 16
+      "price": 280,
+      "stock": 14
     },
     {
       "id": "27",
@@ -294,8 +294,8 @@
       "types": [
         "ground"
       ],
-      "price": 261,
-      "stock": 18
+      "price": 368,
+      "stock": 11
     },
     {
       "id": "28",
@@ -304,8 +304,8 @@
       "types": [
         "ground"
       ],
-      "price": 295,
-      "stock": 11
+      "price": 394,
+      "stock": 5
     },
     {
       "id": "29",
@@ -314,8 +314,8 @@
       "types": [
         "poison"
       ],
-      "price": 338,
-      "stock": 14
+      "price": 520,
+      "stock": 4
     },
     {
       "id": "30",
@@ -324,8 +324,8 @@
       "types": [
         "poison"
       ],
-      "price": 133,
-      "stock": 19
+      "price": 165,
+      "stock": 12
     },
     {
       "id": "31",
@@ -335,8 +335,8 @@
         "poison",
         "ground"
       ],
-      "price": 105,
-      "stock": 4
+      "price": 359,
+      "stock": 11
     },
     {
       "id": "32",
@@ -345,8 +345,8 @@
       "types": [
         "poison"
       ],
-      "price": 532,
-      "stock": 9
+      "price": 374,
+      "stock": 20
     },
     {
       "id": "33",
@@ -355,8 +355,8 @@
       "types": [
         "poison"
       ],
-      "price": 357,
-      "stock": 12
+      "price": 155,
+      "stock": 9
     },
     {
       "id": "34",
@@ -366,8 +366,8 @@
         "poison",
         "ground"
       ],
-      "price": 126,
-      "stock": 8
+      "price": 136,
+      "stock": 4
     },
     {
       "id": "35",
@@ -376,8 +376,8 @@
       "types": [
         "fairy"
       ],
-      "price": 112,
-      "stock": 4
+      "price": 459,
+      "stock": 16
     },
     {
       "id": "36",
@@ -386,8 +386,8 @@
       "types": [
         "fairy"
       ],
-      "price": 300,
-      "stock": 13
+      "price": 332,
+      "stock": 1
     },
     {
       "id": "37",
@@ -396,7 +396,7 @@
       "types": [
         "fire"
       ],
-      "price": 434,
+      "price": 349,
       "stock": 4
     },
     {
@@ -406,8 +406,8 @@
       "types": [
         "fire"
       ],
-      "price": 151,
-      "stock": 18
+      "price": 326,
+      "stock": 8
     },
     {
       "id": "39",
@@ -417,8 +417,8 @@
         "normal",
         "fairy"
       ],
-      "price": 142,
-      "stock": 2
+      "price": 296,
+      "stock": 10
     },
     {
       "id": "40",
@@ -428,8 +428,8 @@
         "normal",
         "fairy"
       ],
-      "price": 472,
-      "stock": 10
+      "price": 548,
+      "stock": 1
     },
     {
       "id": "41",
@@ -439,8 +439,8 @@
         "poison",
         "flying"
       ],
-      "price": 285,
-      "stock": 11
+      "price": 421,
+      "stock": 17
     },
     {
       "id": "42",
@@ -450,8 +450,8 @@
         "poison",
         "flying"
       ],
-      "price": 501,
-      "stock": 6
+      "price": 500,
+      "stock": 20
     },
     {
       "id": "43",
@@ -462,7 +462,7 @@
         "poison"
       ],
       "price": 197,
-      "stock": 16
+      "stock": 6
     },
     {
       "id": "44",
@@ -472,8 +472,8 @@
         "grass",
         "poison"
       ],
-      "price": 83,
-      "stock": 13
+      "price": 528,
+      "stock": 5
     },
     {
       "id": "45",
@@ -483,8 +483,8 @@
         "grass",
         "poison"
       ],
-      "price": 487,
-      "stock": 3
+      "price": 80,
+      "stock": 16
     },
     {
       "id": "46",
@@ -494,8 +494,8 @@
         "bug",
         "grass"
       ],
-      "price": 143,
-      "stock": 13
+      "price": 103,
+      "stock": 20
     },
     {
       "id": "47",
@@ -505,8 +505,8 @@
         "bug",
         "grass"
       ],
-      "price": 200,
-      "stock": 17
+      "price": 263,
+      "stock": 12
     },
     {
       "id": "48",
@@ -516,7 +516,7 @@
         "bug",
         "poison"
       ],
-      "price": 464,
+      "price": 181,
       "stock": 20
     },
     {
@@ -527,8 +527,8 @@
         "bug",
         "poison"
       ],
-      "price": 97,
-      "stock": 15
+      "price": 293,
+      "stock": 14
     },
     {
       "id": "50",
@@ -537,8 +537,8 @@
       "types": [
         "ground"
       ],
-      "price": 161,
-      "stock": 2
+      "price": 250,
+      "stock": 16
     },
     {
       "id": "51",
@@ -547,8 +547,8 @@
       "types": [
         "ground"
       ],
-      "price": 410,
-      "stock": 14
+      "price": 444,
+      "stock": 7
     },
     {
       "id": "52",
@@ -557,8 +557,8 @@
       "types": [
         "normal"
       ],
-      "price": 470,
-      "stock": 5
+      "price": 478,
+      "stock": 17
     },
     {
       "id": "53",
@@ -567,8 +567,8 @@
       "types": [
         "normal"
       ],
-      "price": 505,
-      "stock": 18
+      "price": 87,
+      "stock": 16
     },
     {
       "id": "54",
@@ -577,8 +577,8 @@
       "types": [
         "water"
       ],
-      "price": 349,
-      "stock": 7
+      "price": 287,
+      "stock": 15
     },
     {
       "id": "55",
@@ -587,8 +587,8 @@
       "types": [
         "water"
       ],
-      "price": 533,
-      "stock": 14
+      "price": 360,
+      "stock": 6
     },
     {
       "id": "56",
@@ -597,8 +597,8 @@
       "types": [
         "fighting"
       ],
-      "price": 72,
-      "stock": 12
+      "price": 441,
+      "stock": 15
     },
     {
       "id": "57",
@@ -607,8 +607,8 @@
       "types": [
         "fighting"
       ],
-      "price": 482,
-      "stock": 9
+      "price": 355,
+      "stock": 1
     },
     {
       "id": "58",
@@ -617,8 +617,8 @@
       "types": [
         "fire"
       ],
-      "price": 412,
-      "stock": 12
+      "price": 210,
+      "stock": 9
     },
     {
       "id": "59",
@@ -627,8 +627,8 @@
       "types": [
         "fire"
       ],
-      "price": 161,
-      "stock": 14
+      "price": 156,
+      "stock": 17
     },
     {
       "id": "60",
@@ -637,8 +637,8 @@
       "types": [
         "water"
       ],
-      "price": 426,
-      "stock": 14
+      "price": 241,
+      "stock": 19
     },
     {
       "id": "61",
@@ -647,8 +647,8 @@
       "types": [
         "water"
       ],
-      "price": 197,
-      "stock": 12
+      "price": 235,
+      "stock": 14
     },
     {
       "id": "62",
@@ -658,8 +658,8 @@
         "water",
         "fighting"
       ],
-      "price": 251,
-      "stock": 7
+      "price": 180,
+      "stock": 8
     },
     {
       "id": "63",
@@ -668,8 +668,8 @@
       "types": [
         "psychic"
       ],
-      "price": 460,
-      "stock": 18
+      "price": 291,
+      "stock": 2
     },
     {
       "id": "64",
@@ -678,8 +678,8 @@
       "types": [
         "psychic"
       ],
-      "price": 126,
-      "stock": 6
+      "price": 285,
+      "stock": 14
     },
     {
       "id": "65",
@@ -688,8 +688,8 @@
       "types": [
         "psychic"
       ],
-      "price": 178,
-      "stock": 8
+      "price": 89,
+      "stock": 20
     },
     {
       "id": "66",
@@ -698,8 +698,8 @@
       "types": [
         "fighting"
       ],
-      "price": 412,
-      "stock": 2
+      "price": 235,
+      "stock": 13
     },
     {
       "id": "67",
@@ -708,8 +708,8 @@
       "types": [
         "fighting"
       ],
-      "price": 400,
-      "stock": 15
+      "price": 326,
+      "stock": 11
     },
     {
       "id": "68",
@@ -718,8 +718,8 @@
       "types": [
         "fighting"
       ],
-      "price": 522,
-      "stock": 9
+      "price": 264,
+      "stock": 10
     },
     {
       "id": "69",
@@ -729,8 +729,8 @@
         "grass",
         "poison"
       ],
-      "price": 272,
-      "stock": 16
+      "price": 508,
+      "stock": 19
     },
     {
       "id": "70",
@@ -740,8 +740,8 @@
         "grass",
         "poison"
       ],
-      "price": 503,
-      "stock": 0
+      "price": 234,
+      "stock": 20
     },
     {
       "id": "71",
@@ -751,8 +751,8 @@
         "grass",
         "poison"
       ],
-      "price": 154,
-      "stock": 4
+      "price": 279,
+      "stock": 17
     },
     {
       "id": "72",
@@ -762,8 +762,8 @@
         "water",
         "poison"
       ],
-      "price": 78,
-      "stock": 7
+      "price": 309,
+      "stock": 14
     },
     {
       "id": "73",
@@ -773,8 +773,8 @@
         "water",
         "poison"
       ],
-      "price": 258,
-      "stock": 16
+      "price": 532,
+      "stock": 13
     },
     {
       "id": "74",
@@ -784,8 +784,8 @@
         "rock",
         "ground"
       ],
-      "price": 127,
-      "stock": 4
+      "price": 329,
+      "stock": 12
     },
     {
       "id": "75",
@@ -795,8 +795,8 @@
         "rock",
         "ground"
       ],
-      "price": 475,
-      "stock": 17
+      "price": 130,
+      "stock": 16
     },
     {
       "id": "76",
@@ -806,7 +806,7 @@
         "rock",
         "ground"
       ],
-      "price": 398,
+      "price": 80,
       "stock": 6
     },
     {
@@ -816,8 +816,8 @@
       "types": [
         "fire"
       ],
-      "price": 424,
-      "stock": 7
+      "price": 432,
+      "stock": 18
     },
     {
       "id": "78",
@@ -826,8 +826,8 @@
       "types": [
         "fire"
       ],
-      "price": 176,
-      "stock": 8
+      "price": 492,
+      "stock": 6
     },
     {
       "id": "79",
@@ -837,8 +837,8 @@
         "water",
         "psychic"
       ],
-      "price": 471,
-      "stock": 20
+      "price": 132,
+      "stock": 8
     },
     {
       "id": "80",
@@ -848,8 +848,8 @@
         "water",
         "psychic"
       ],
-      "price": 396,
-      "stock": 14
+      "price": 462,
+      "stock": 12
     },
     {
       "id": "81",
@@ -859,8 +859,8 @@
         "electric",
         "steel"
       ],
-      "price": 343,
-      "stock": 17
+      "price": 174,
+      "stock": 5
     },
     {
       "id": "82",
@@ -870,8 +870,8 @@
         "electric",
         "steel"
       ],
-      "price": 205,
-      "stock": 20
+      "price": 303,
+      "stock": 5
     },
     {
       "id": "83",
@@ -881,8 +881,8 @@
         "normal",
         "flying"
       ],
-      "price": 438,
-      "stock": 7
+      "price": 86,
+      "stock": 15
     },
     {
       "id": "84",
@@ -892,8 +892,8 @@
         "normal",
         "flying"
       ],
-      "price": 147,
-      "stock": 8
+      "price": 144,
+      "stock": 7
     },
     {
       "id": "85",
@@ -903,8 +903,8 @@
         "normal",
         "flying"
       ],
-      "price": 206,
-      "stock": 7
+      "price": 511,
+      "stock": 9
     },
     {
       "id": "86",
@@ -913,8 +913,8 @@
       "types": [
         "water"
       ],
-      "price": 73,
-      "stock": 17
+      "price": 513,
+      "stock": 1
     },
     {
       "id": "87",
@@ -924,8 +924,8 @@
         "water",
         "ice"
       ],
-      "price": 290,
-      "stock": 1
+      "price": 416,
+      "stock": 16
     },
     {
       "id": "88",
@@ -934,8 +934,8 @@
       "types": [
         "poison"
       ],
-      "price": 474,
-      "stock": 18
+      "price": 379,
+      "stock": 16
     },
     {
       "id": "89",
@@ -944,8 +944,8 @@
       "types": [
         "poison"
       ],
-      "price": 288,
-      "stock": 10
+      "price": 498,
+      "stock": 18
     },
     {
       "id": "90",
@@ -954,8 +954,8 @@
       "types": [
         "water"
       ],
-      "price": 114,
-      "stock": 18
+      "price": 217,
+      "stock": 7
     },
     {
       "id": "91",
@@ -965,8 +965,8 @@
         "water",
         "ice"
       ],
-      "price": 296,
-      "stock": 16
+      "price": 131,
+      "stock": 15
     },
     {
       "id": "92",
@@ -976,8 +976,8 @@
         "ghost",
         "poison"
       ],
-      "price": 353,
-      "stock": 2
+      "price": 124,
+      "stock": 13
     },
     {
       "id": "93",
@@ -987,8 +987,8 @@
         "ghost",
         "poison"
       ],
-      "price": 147,
-      "stock": 13
+      "price": 84,
+      "stock": 16
     },
     {
       "id": "94",
@@ -998,8 +998,8 @@
         "ghost",
         "poison"
       ],
-      "price": 179,
-      "stock": 8
+      "price": 296,
+      "stock": 10
     },
     {
       "id": "95",
@@ -1009,8 +1009,8 @@
         "rock",
         "ground"
       ],
-      "price": 397,
-      "stock": 8
+      "price": 313,
+      "stock": 10
     },
     {
       "id": "96",
@@ -1019,8 +1019,8 @@
       "types": [
         "psychic"
       ],
-      "price": 96,
-      "stock": 8
+      "price": 250,
+      "stock": 18
     },
     {
       "id": "97",
@@ -1029,8 +1029,8 @@
       "types": [
         "psychic"
       ],
-      "price": 228,
-      "stock": 9
+      "price": 165,
+      "stock": 10
     },
     {
       "id": "98",
@@ -1039,8 +1039,8 @@
       "types": [
         "water"
       ],
-      "price": 277,
-      "stock": 16
+      "price": 343,
+      "stock": 10
     },
     {
       "id": "99",
@@ -1049,8 +1049,8 @@
       "types": [
         "water"
       ],
-      "price": 83,
-      "stock": 6
+      "price": 257,
+      "stock": 7
     },
     {
       "id": "100",
@@ -1059,8 +1059,8 @@
       "types": [
         "electric"
       ],
-      "price": 172,
-      "stock": 12
+      "price": 392,
+      "stock": 6
     },
     {
       "id": "101",
@@ -1069,8 +1069,8 @@
       "types": [
         "electric"
       ],
-      "price": 549,
-      "stock": 9
+      "price": 189,
+      "stock": 6
     },
     {
       "id": "102",
@@ -1080,8 +1080,8 @@
         "grass",
         "psychic"
       ],
-      "price": 191,
-      "stock": 10
+      "price": 516,
+      "stock": 14
     },
     {
       "id": "103",
@@ -1091,7 +1091,7 @@
         "grass",
         "psychic"
       ],
-      "price": 260,
+      "price": 52,
       "stock": 3
     },
     {
@@ -1101,8 +1101,8 @@
       "types": [
         "ground"
       ],
-      "price": 347,
-      "stock": 7
+      "price": 334,
+      "stock": 12
     },
     {
       "id": "105",
@@ -1111,8 +1111,8 @@
       "types": [
         "ground"
       ],
-      "price": 250,
-      "stock": 2
+      "price": 236,
+      "stock": 10
     },
     {
       "id": "106",
@@ -1121,7 +1121,7 @@
       "types": [
         "fighting"
       ],
-      "price": 358,
+      "price": 503,
       "stock": 16
     },
     {
@@ -1131,8 +1131,8 @@
       "types": [
         "fighting"
       ],
-      "price": 174,
-      "stock": 10
+      "price": 57,
+      "stock": 11
     },
     {
       "id": "108",
@@ -1141,8 +1141,8 @@
       "types": [
         "normal"
       ],
-      "price": 135,
-      "stock": 14
+      "price": 364,
+      "stock": 11
     },
     {
       "id": "109",
@@ -1151,8 +1151,8 @@
       "types": [
         "poison"
       ],
-      "price": 536,
-      "stock": 1
+      "price": 460,
+      "stock": 10
     },
     {
       "id": "110",
@@ -1161,8 +1161,8 @@
       "types": [
         "poison"
       ],
-      "price": 51,
-      "stock": 20
+      "price": 365,
+      "stock": 16
     },
     {
       "id": "111",
@@ -1172,7 +1172,7 @@
         "ground",
         "rock"
       ],
-      "price": 392,
+      "price": 63,
       "stock": 8
     },
     {
@@ -1183,8 +1183,8 @@
         "ground",
         "rock"
       ],
-      "price": 264,
-      "stock": 11
+      "price": 459,
+      "stock": 13
     },
     {
       "id": "113",
@@ -1193,7 +1193,7 @@
       "types": [
         "normal"
       ],
-      "price": 182,
+      "price": 344,
       "stock": 16
     },
     {
@@ -1203,8 +1203,8 @@
       "types": [
         "grass"
       ],
-      "price": 132,
-      "stock": 5
+      "price": 365,
+      "stock": 14
     },
     {
       "id": "115",
@@ -1213,8 +1213,8 @@
       "types": [
         "normal"
       ],
-      "price": 72,
-      "stock": 12
+      "price": 510,
+      "stock": 6
     },
     {
       "id": "116",
@@ -1223,8 +1223,8 @@
       "types": [
         "water"
       ],
-      "price": 105,
-      "stock": 6
+      "price": 62,
+      "stock": 12
     },
     {
       "id": "117",
@@ -1233,8 +1233,8 @@
       "types": [
         "water"
       ],
-      "price": 125,
-      "stock": 7
+      "price": 149,
+      "stock": 16
     },
     {
       "id": "118",
@@ -1243,8 +1243,8 @@
       "types": [
         "water"
       ],
-      "price": 160,
-      "stock": 12
+      "price": 446,
+      "stock": 16
     },
     {
       "id": "119",
@@ -1253,8 +1253,8 @@
       "types": [
         "water"
       ],
-      "price": 312,
-      "stock": 17
+      "price": 179,
+      "stock": 16
     },
     {
       "id": "120",
@@ -1263,8 +1263,8 @@
       "types": [
         "water"
       ],
-      "price": 359,
-      "stock": 12
+      "price": 118,
+      "stock": 8
     },
     {
       "id": "121",
@@ -1274,8 +1274,8 @@
         "water",
         "psychic"
       ],
-      "price": 428,
-      "stock": 2
+      "price": 387,
+      "stock": 1
     },
     {
       "id": "122",
@@ -1285,8 +1285,8 @@
         "psychic",
         "fairy"
       ],
-      "price": 214,
-      "stock": 9
+      "price": 533,
+      "stock": 19
     },
     {
       "id": "123",
@@ -1296,8 +1296,8 @@
         "bug",
         "flying"
       ],
-      "price": 371,
-      "stock": 20
+      "price": 491,
+      "stock": 4
     },
     {
       "id": "124",
@@ -1307,8 +1307,8 @@
         "ice",
         "psychic"
       ],
-      "price": 188,
-      "stock": 4
+      "price": 282,
+      "stock": 17
     },
     {
       "id": "125",
@@ -1317,8 +1317,8 @@
       "types": [
         "electric"
       ],
-      "price": 282,
-      "stock": 13
+      "price": 50,
+      "stock": 16
     },
     {
       "id": "126",
@@ -1327,8 +1327,8 @@
       "types": [
         "fire"
       ],
-      "price": 478,
-      "stock": 17
+      "price": 85,
+      "stock": 11
     },
     {
       "id": "127",
@@ -1337,8 +1337,8 @@
       "types": [
         "bug"
       ],
-      "price": 252,
-      "stock": 15
+      "price": 309,
+      "stock": 16
     },
     {
       "id": "128",
@@ -1347,8 +1347,8 @@
       "types": [
         "normal"
       ],
-      "price": 478,
-      "stock": 14
+      "price": 248,
+      "stock": 8
     },
     {
       "id": "129",
@@ -1357,8 +1357,8 @@
       "types": [
         "water"
       ],
-      "price": 512,
-      "stock": 14
+      "price": 102,
+      "stock": 8
     },
     {
       "id": "130",
@@ -1368,7 +1368,7 @@
         "water",
         "flying"
       ],
-      "price": 167,
+      "price": 142,
       "stock": 19
     },
     {
@@ -1379,8 +1379,8 @@
         "water",
         "ice"
       ],
-      "price": 470,
-      "stock": 1
+      "price": 57,
+      "stock": 16
     },
     {
       "id": "132",
@@ -1389,8 +1389,8 @@
       "types": [
         "normal"
       ],
-      "price": 513,
-      "stock": 16
+      "price": 493,
+      "stock": 14
     },
     {
       "id": "133",
@@ -1399,8 +1399,8 @@
       "types": [
         "normal"
       ],
-      "price": 375,
-      "stock": 7
+      "price": 183,
+      "stock": 11
     },
     {
       "id": "134",
@@ -1409,8 +1409,8 @@
       "types": [
         "water"
       ],
-      "price": 79,
-      "stock": 13
+      "price": 470,
+      "stock": 15
     },
     {
       "id": "135",
@@ -1419,8 +1419,8 @@
       "types": [
         "electric"
       ],
-      "price": 445,
-      "stock": 18
+      "price": 211,
+      "stock": 16
     },
     {
       "id": "136",
@@ -1429,8 +1429,8 @@
       "types": [
         "fire"
       ],
-      "price": 301,
-      "stock": 8
+      "price": 438,
+      "stock": 11
     },
     {
       "id": "137",
@@ -1439,7 +1439,7 @@
       "types": [
         "normal"
       ],
-      "price": 240,
+      "price": 464,
       "stock": 5
     },
     {
@@ -1450,8 +1450,8 @@
         "rock",
         "water"
       ],
-      "price": 275,
-      "stock": 19
+      "price": 230,
+      "stock": 3
     },
     {
       "id": "139",
@@ -1461,8 +1461,8 @@
         "rock",
         "water"
       ],
-      "price": 447,
-      "stock": 6
+      "price": 63,
+      "stock": 2
     },
     {
       "id": "140",
@@ -1472,8 +1472,8 @@
         "rock",
         "water"
       ],
-      "price": 359,
-      "stock": 7
+      "price": 254,
+      "stock": 16
     },
     {
       "id": "141",
@@ -1483,8 +1483,8 @@
         "rock",
         "water"
       ],
-      "price": 184,
-      "stock": 15
+      "price": 347,
+      "stock": 2
     },
     {
       "id": "142",
@@ -1494,8 +1494,8 @@
         "rock",
         "flying"
       ],
-      "price": 276,
-      "stock": 12
+      "price": 482,
+      "stock": 18
     },
     {
       "id": "143",
@@ -1504,8 +1504,8 @@
       "types": [
         "normal"
       ],
-      "price": 143,
-      "stock": 19
+      "price": 452,
+      "stock": 9
     },
     {
       "id": "144",
@@ -1515,8 +1515,8 @@
         "ice",
         "flying"
       ],
-      "price": 171,
-      "stock": 20
+      "price": 153,
+      "stock": 10
     },
     {
       "id": "145",
@@ -1526,8 +1526,8 @@
         "electric",
         "flying"
       ],
-      "price": 85,
-      "stock": 2
+      "price": 434,
+      "stock": 1
     },
     {
       "id": "146",
@@ -1537,7 +1537,7 @@
         "fire",
         "flying"
       ],
-      "price": 469,
+      "price": 309,
       "stock": 8
     },
     {
@@ -1547,8 +1547,8 @@
       "types": [
         "dragon"
       ],
-      "price": 462,
-      "stock": 2
+      "price": 487,
+      "stock": 1
     },
     {
       "id": "148",
@@ -1557,7 +1557,7 @@
       "types": [
         "dragon"
       ],
-      "price": 362,
+      "price": 486,
       "stock": 20
     },
     {
@@ -1568,8 +1568,8 @@
         "dragon",
         "flying"
       ],
-      "price": 61,
-      "stock": 8
+      "price": 460,
+      "stock": 3
     },
     {
       "id": "150",
@@ -1578,8 +1578,8 @@
       "types": [
         "psychic"
       ],
-      "price": 333,
-      "stock": 20
+      "price": 344,
+      "stock": 2
     },
     {
       "id": "151",
@@ -1588,7 +1588,7 @@
       "types": [
         "psychic"
       ],
-      "price": 242,
+      "price": 192,
       "stock": 10
     }
   ]
